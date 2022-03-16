@@ -2,8 +2,7 @@
 
 import numpy as np
 import pickle
-from keras.applications.vgg16 import VGG16
-from keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
+from keras.applications.resnet50 import ResNet50, preprocess_input
 from keras.preprocessing import image
 from keras.models import Model, load_model
 from keras.preprocessing.sequence import pad_sequences
